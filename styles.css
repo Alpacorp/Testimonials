@@ -4,17 +4,126 @@
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   scroll-behavior: smooth;
+  font-family: 'Barlow Semi Condensed', sans-serif;
+}
+
+body {
+  background-color: #EDF2F8;
+}
+
+.bgImage {
+  background-image: url(images/bg-pattern-quotation.svg);
+  background-repeat: no-repeat;
+  background-position-x: right;
+}
+
+.violette {
+  background-color: #7541c8;
+}
+
+.blackish {
+  background-color: #19212e;
+}
+
+.white {
+  background-color: white;
+}
+
+.darkgray {
+  background-color: #48556a;
+}
+
+.textDarkGray {
+  color: #48556a;
+}
+
+.textlightH2 {
+  color: #ecf2f8;
+}
+
+.textlightH3 {
+  color: #cfcfcf;
 }
 
 .testimonials {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 150px;
 }
 
-.testimonials__block-1 {
+.testimonials__block {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: 0 10px;
+}
+
+.testimonials__block .blockBig {
+  width: 60%;
+  padding: 50px;
+  border-radius: 10px;
+  margin: 20px;
+}
+
+.testimonials__block .blockSmall {
+  width: 60%;
+  padding: 50px;
+  border-radius: 10px;
+  margin: 20px;
+}
+
+.testimonials .sectionAside {
+  width: 100%;
+}
+
+.testimonials .sectionAside .blockAside {
+  padding: 30px;
+  border-radius: 10px;
+  margin: 14px;
+}
+
+.testimonials .sectionTestimonial {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.testimonials .sectionTestimonial .blockSmall {
+  width: 40%;
+}
+
+.testimonials .block__info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 20px;
+}
+
+.testimonials .block__info img {
+  border-radius: 50%;
+  border: 2px solid purple;
+  margin-right: 20px;
+}
+
+.testimonials .block__mainText {
+  font-weight: 900;
+  font-size: 20px;
+  color: white;
+  margin-bottom: 20px;
+}
+
+.testimonials .block__text {
+  color: #cfcfcf;
 }
 /*# sourceMappingURL=styles.css.map */
