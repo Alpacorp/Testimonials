@@ -126,4 +126,30 @@ body {
 .testimonials .block__text {
   color: #cfcfcf;
 }
+
+@media screen and (max-width: 1200px) {
+  .testimonials {
+    display: block;
+  }
+  .testimonials .testimonials__block .sectionTestimonial {
+    display: block;
+  }
+  .testimonials .testimonials__block .sectionTestimonial .blockSmall {
+    width: auto;
+    display: block;
+  }
+  .testimonials .testimonials__block .sectionTestimonial .blockBig {
+    width: auto;
+    display: block;
+  }
+  .testimonials .sectionAside .blockAside {
+    margin: 0 29px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .testimonials {
+    margin: 70px;
+  }
+}
 /*# sourceMappingURL=styles.css.map */

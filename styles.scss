@@ -76,7 +76,6 @@ body {
     }
     & .sectionTestimonial {
         display: flex;
-        // align-items: center;
         & .blockSmall {
             width: 40%;
         }
@@ -99,5 +98,35 @@ body {
     }
     & .block__text {
         color: $light-gray;
+    }
+}
+
+@media screen and(max-width: 1200px) {
+    .testimonials {
+        display: block;
+        .testimonials__block {
+            & .sectionTestimonial {
+                display: block;
+                & .blockSmall {
+                    width: auto;
+                    display: block;
+                }
+                & .blockBig {
+                    width: auto;
+                    display: block;
+                }
+            }
+        }
+        & .sectionAside {
+            & .blockAside {
+                margin: 0 29px;
+            }
+        }
+    }
+}
+
+@media screen and(max-width: 900px) {
+    .testimonials {
+        margin: 70px;
     }
 }
